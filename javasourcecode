@@ -14,5 +14,10 @@ number = number/10;
 System.out.println("The reverse of the given number is: " + reverse);  
 }  
 }
+<<<<<<< HEAD
 amazon username
 i wont tell u
+=======
+amazon prime subscription
+privacy encripted
+>>>>>>> e72db0ac277eb519dc9fccd4374e56882b7cee5e
