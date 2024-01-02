@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout source code from a Git repository
+                git branch: 'main', url: 'https://github.com/your-username/your-repo.git'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                // Build your project (Example: using Maven)
+                sh 'mvn clean package'
+            }
+        }
